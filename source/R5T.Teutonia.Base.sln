@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Teutonia.Base.Construction", "R5T.Teutonia.Base.Construction\R5T.Teutonia.Base.Construction.csproj", "{68253CF8-B761-4A56-A540-021208C727B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Teutonia.Base.Construction", "R5T.Teutonia.Base.Construction\R5T.Teutonia.Base.Construction.csproj", "{68253CF8-B761-4A56-A540-021208C727B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Teutonia.Base", "R5T.Teutonia.Base\R5T.Teutonia.Base.csproj", "{3CBDAC39-5A76-4034-954B-76E0E0B509EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Teutonia.Base", "R5T.Teutonia.Base\R5T.Teutonia.Base.csproj", "{3CBDAC39-5A76-4034-954B-76E0E0B509EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{0CB08E00-659F-4583-9467-1B35D304F248}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Gepidia.Base", "..\..\R5T.Gepidia.Base\source\R5T.Gepidia.Base\R5T.Gepidia.Base.csproj", "{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{68253CF8-B761-4A56-A540-021208C727B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +45,26 @@ Global
 		{3CBDAC39-5A76-4034-954B-76E0E0B509EE}.Release|x64.Build.0 = Release|Any CPU
 		{3CBDAC39-5A76-4034-954B-76E0E0B509EE}.Release|x86.ActiveCfg = Release|Any CPU
 		{3CBDAC39-5A76-4034-954B-76E0E0B509EE}.Release|x86.Build.0 = Release|Any CPU
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}.Debug|x64.Build.0 = Debug|Any CPU
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}.Debug|x86.Build.0 = Debug|Any CPU
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}.Release|x64.ActiveCfg = Release|Any CPU
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}.Release|x64.Build.0 = Release|Any CPU
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}.Release|x86.ActiveCfg = Release|Any CPU
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC3C8327-97E8-4CA5-B1E1-91CD0C24B4C8} = {0CB08E00-659F-4583-9467-1B35D304F248}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75D23DCD-4FD9-45B6-897B-A89C79F4A2F6}
 	EndGlobalSection
 EndGlobal
